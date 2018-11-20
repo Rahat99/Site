@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mysite</title>
+   <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet"  href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div >
+      <img class="logo" src="img/logo.png" alt="logo">
+    </div>
+    <div class="header_logo"><p>MYSTELEE</p></div>
+    <form class="cont">
+        <input type="text" name="username"
+        placeholder="Пойск">
+      </form>
+    <nav>
+      <div class="topnav" id="mytopnav">
+        <a class="topnav1" href="MENU.html">ГЛАВНАЯ</a>
+        <a href=""><font color="#fcac45">МАГАЗИН</font></a>
+        <a href="Register.html">ВОЙТИ</a>
+      </div>
+    </nav>
+  </header>
+<br>
+<br>
+
+
+<section class="text-center mb-4">
+  <div class="row wow fadeIn">
+<div class="col-lg-3 col-md-6 mb-4">
+  <div class="card">
+<div class="view overlay">
+<img class="card-img-top" src="data:image/jpeg;base64,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" alt="real">
+<a href="">
+  <div class="mask rgba-white-slight">
+
+  </div>
+</a>
+</div>
+<div class="card-body text-center">
+  <a href="" class="grey-text">
+    <h5></h5>
+  </a>
+<h5>
+  <strong>
+    <a href="#" class="dark-grey-text"> футболка
+      <span class="badge badge-pill danger-color">Новая колллекция </span>
+    </a>
+  </strong>
+</h5>
+<h4 class="font-weight-bold blue-text">
+  <strong>15.000 тг</strong>
+
+</h4>
+</div>
+  </div>
+</div>
+
+
+<div class="col-lg-3 col-md-6 mb-4">
+    <div class="card">
+  <div class="view overlay">
+  <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2AGeQ2kMKpwW9A39AYILCX71E-B3Av5PDVbqfD3MzKqRC6nA1" alt="real">
+  <a href="">
+    <div class="mask rgba-white-slight">
+  
+    </div>
+  </a>
+  </div>
+  <div class="card-body text-center">
+    <a href="" class="grey-text">
+      <h5></h5>
+    </a>
+  <h5>
+    <strong>
+      <a href="#" class="dark-grey-text"> футболка
+        <span class="badge badge-pill danger-color">Новая колллекция </span>
+      </a>
+    </strong>
+  </h5>
+  <h4 class="font-weight-bold blue-text">
+    <strong>15.000 тг</strong>
+  
+  </h4>
+  </div>
+    </div>
+  </div>
+
+
+  <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card">
+    <div class="view overlay">
+    <img class="card-img-top" src="data:image/jpeg;base64,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" alt="real">
+    <a href="">
+      <div class="mask rgba-white-slight">
+    
+      </div>
+    </a>
+    </div>
+    <div class="card-body text-center">
+      <a href="" class="grey-text">
+        <h5></h5>
+      </a>
+    <h5>
+      <strong>
+        <a href="#" class="dark-grey-text"> футболка
+          <span class="badge badge-pill danger-color">Новая колллекция </span>
+        </a>
+      </strong>
+    </h5>
+    <h4 class="font-weight-bold blue-text">
+      <strong>22.000 тг</strong>
+    
+    </h4>
+    </div>
+      </div>
+    </div>
+
+
+    <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+      <div class="view overlay">
+      <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxHQBkICC9vKpk0lYrKB26wz6TqNa1mZXg6QMHE5GXurn2khb2UA" alt="real">
+      <a href="">
+        <div class="mask rgba-white-slight">
+      
+        </div>
+      </a>
+      </div>
+      <div class="card-body text-center">
+        <a href="" class="grey-text">
+          <h5></h5>
+        </a>
+      <h5>
+        <strong>
+          <a href="#" class="dark-grey-text"> футболка
+            <span class="badge badge-pill danger-color">Новая колллекция </span>
+          </a>
+        </strong>
+      </h5>
+      <h4 class="font-weight-bold blue-text">
+        <strong>20.000 тг</strong>
+      
+      </h4>
+      </div>
+        </div>
+      </div>
+
+
+  </div>
+
+  <div class="row wow fadeIn">
+      <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+        <div class="view overlay">
+        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrvtPDU7z_nlth5j9vZF-iRXxgIgkMoeSBJs2u2LXg1LcP1I4DJg" alt="real">
+        <a href="">
+          <div class="mask rgba-white-slight">
+        
+          </div>
+        </a>
+        </div>
+        <div class="card-body text-center">
+          <a href="" class="grey-text">
+            <h5></h5>
+          </a>
+        <h5>
+          <strong>
+            <a href="#" class="dark-grey-text"> футболка
+              <span class="badge badge-pill danger-color">Новая колллекция </span>
+            </a>
+          </strong>
+        </h5>
+        <h4 class="font-weight-bold blue-text">
+          <strong>19.000 тг</strong>
+        
+        </h4>
+        </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+          <div class="view overlay">
+          <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfbNCc7imMcNQp8ytzJrSmR-z_qY-IdcCF2QW-iVAzEVHlWSoz" alt="real">
+          <a href="">
+            <div class="mask rgba-white-slight">
+          
+            </div>
+          </a>
+          </div>
+          <div class="card-body text-center">
+            <a href="" class="grey-text">
+              <h5></h5>
+            </a>
+          <h5>
+            <strong>
+              <a href="#" class="dark-grey-text"> футболка
+                <span class="badge badge-pill danger-color">Новая колллекция </span>
+              </a>
+            </strong>
+          </h5>
+          <h4 class="font-weight-bold blue-text">
+            <strong>10.000 тг</strong>
+          
+          </h4>
+          </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card">
+            <div class="view overlay">
+            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUt3UEwyPJmiKIGt1697NHjV9pASC_idjxKs5pUnzA-R3sy0izJQ" alt="real">
+            <a href="">
+              <div class="mask rgba-white-slight">
+            
+              </div>
+            </a>
+            </div>
+            <div class="card-body text-center">
+              <a href="" class="grey-text">
+                <h5></h5>
+              </a>
+            <h5>
+              <strong>
+                <a href="#" class="dark-grey-text"> футболка
+                  <span class="badge badge-pill danger-color">Новая колллекция </span>
+                </a>
+              </strong>
+            </h5>
+            <h4 class="font-weight-bold blue-text">
+              <strong>15.000 tg</strong>
+            
+            </h4>
+            </div>
+              </div>
+            </div>
+
+
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card">
+              <div class="view overlay">
+              <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTpMOtD4ynZfUErYgi0CGKx6HOoNvhgeGpEGsdtmR7CTpLMKXd" alt="real">
+              <a href="">
+                <div class="mask rgba-white-slight">
+              
+                </div>
+              </a>
+              </div>
+              <div class="card-body text-center">
+                <a href="" class="grey-text">
+                  <h5></h5>
+                </a>
+              <h5>
+                <strong>
+                  <a href="#" class="dark-grey-text">Черная футболка
+                    <span class="badge badge-pill danger-color">Новая колллекция </span>
+                  </a>
+                </strong>
+              </h5>
+              <h4 class="font-weight-bold blue-text">
+                <strong>15.000 tg</strong>
+              
+              </h4>
+              </div>
+                </div>
+              </div>
+
+
+
+
+
+
+
+  </div>
+
+</section>
+
+
+<footer>
+    <div>
+      <a href="#"><img class="L" src="img/l.png" alt="L"></a>
+
+
+      <a id="a" class="info" href="#">О нас</a>
+      <a id="b" class="info" href="#">Помощь</a>
+      <a id="c" class="info" href="#">Сертификаты</a>
+            
+
+
+            
+
+            <a class="soic">Мы в соцсетях</a>
+      
+
+
+
+      <a href="#"><img class="social" src="img/em.png"></a>
+      <a href="#"><img class="social" src="img/inst.png"></a>
+      <a href="#"><img class="social" src="img/pint.png"></a>
+      <a href="#"><img class="social" src="img/goo.png"></a>
+      <a href="#"><img class="social" src="img/face.png"></a>
+    </div>
+  </footer>
+
+</body>
+</html>
